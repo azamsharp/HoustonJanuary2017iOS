@@ -50,6 +50,19 @@
     return message;
 }
 
+-(int) add:(int) no1 no2:(int) no2 {
+    return no1 + no2;
+}
+
+-(IBAction) addButtonPressed {
+    
+    int result = [self add:2 secondNumber:5];
+    
+    //self.resultLabel.text = result; // convert result to NSString
+    
+}
+
+
 
 -(IBAction) displayName {
     
