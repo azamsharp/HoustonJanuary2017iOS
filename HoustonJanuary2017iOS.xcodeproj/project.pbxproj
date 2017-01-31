@@ -14,6 +14,7 @@
 		342B72E31E3FA30D004F07F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B72E21E3FA30D004F07F2 /* Assets.xcassets */; };
 		342B72E61E3FA30D004F07F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B72E41E3FA30D004F07F2 /* LaunchScreen.storyboard */; };
 		342B72EE1E3FA4A4004F07F2 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 342B72ED1E3FA4A4004F07F2 /* TODO */; };
+		342B73161E40FB22004F07F2 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B73151E40FB22004F07F2 /* MethodsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		342B72E51E3FA30D004F07F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342B72E71E3FA30D004F07F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342B72ED1E3FA4A4004F07F2 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		342B73141E40FB22004F07F2 /* MethodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodsViewController.h; sourceTree = "<group>"; };
+		342B73151E40FB22004F07F2 /* MethodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		342B72D51E3FA30D004F07F2 /* HoustonJanuary2017iOS */ = {
 			isa = PBXGroup;
 			children = (
+				342B73121E40FAF9004F07F2 /* Week 1 */,
 				342B72D91E3FA30D004F07F2 /* AppDelegate.h */,
 				342B72DA1E3FA30D004F07F2 /* AppDelegate.m */,
 				342B72DC1E3FA30D004F07F2 /* ViewController.h */,
@@ -80,6 +84,23 @@
 				342B72D71E3FA30D004F07F2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		342B73121E40FAF9004F07F2 /* Week 1 */ = {
+			isa = PBXGroup;
+			children = (
+				342B73131E40FB01004F07F2 /* Methods */,
+			);
+			name = "Week 1";
+			sourceTree = "<group>";
+		};
+		342B73131E40FB01004F07F2 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				342B73141E40FB22004F07F2 /* MethodsViewController.h */,
+				342B73151E40FB22004F07F2 /* MethodsViewController.m */,
+			);
+			name = Methods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				342B72DE1E3FA30D004F07F2 /* ViewController.m in Sources */,
+				342B73161E40FB22004F07F2 /* MethodsViewController.m in Sources */,
 				342B72DB1E3FA30D004F07F2 /* AppDelegate.m in Sources */,
 				342B72D81E3FA30D004F07F2 /* main.m in Sources */,
 			);
@@ -316,6 +338,7 @@
 				342B72EC1E3FA30D004F07F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

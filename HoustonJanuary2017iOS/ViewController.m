@@ -23,7 +23,7 @@
     
 //    int = 2, 3 15 45
     
-// bye world 
+// bye world
 //    
 //    double/float = 2.45, 3.145
 //    
