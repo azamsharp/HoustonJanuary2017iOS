@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340283801E423E4600C953F9 /* BMW.m in Sources */ = {isa = PBXBuildFile; fileRef = 3402837F1E423E4600C953F9 /* BMW.m */; };
+		340283831E42406F00C953F9 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340283821E42406F00C953F9 /* CarViewController.m */; };
+		340283861E42425700C953F9 /* Tesla.m in Sources */ = {isa = PBXBuildFile; fileRef = 340283851E42425700C953F9 /* Tesla.m */; };
+		340283891E424A7600C953F9 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 340283881E424A7600C953F9 /* Car.m */; };
+		3402838C1E424E7200C953F9 /* PineTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3402838B1E424E7200C953F9 /* PineTree.m */; };
 		342B72D81E3FA30D004F07F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B72D71E3FA30D004F07F2 /* main.m */; };
 		342B72DB1E3FA30D004F07F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B72DA1E3FA30D004F07F2 /* AppDelegate.m */; };
 		342B72DE1E3FA30D004F07F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B72DD1E3FA30D004F07F2 /* ViewController.m */; };
@@ -18,6 +23,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3402837E1E423E4600C953F9 /* BMW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMW.h; sourceTree = "<group>"; };
+		3402837F1E423E4600C953F9 /* BMW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMW.m; sourceTree = "<group>"; };
+		340283811E42406F00C953F9 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
+		340283821E42406F00C953F9 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
+		340283841E42425700C953F9 /* Tesla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tesla.h; sourceTree = "<group>"; };
+		340283851E42425700C953F9 /* Tesla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tesla.m; sourceTree = "<group>"; };
+		340283871E424A7600C953F9 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		340283881E424A7600C953F9 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		3402838A1E424E7200C953F9 /* PineTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PineTree.h; sourceTree = "<group>"; };
+		3402838B1E424E7200C953F9 /* PineTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PineTree.m; sourceTree = "<group>"; };
 		342B72D31E3FA30D004F07F2 /* HoustonJanuary2017iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoustonJanuary2017iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342B72D71E3FA30D004F07F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		342B72D91E3FA30D004F07F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +59,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3402837D1E423D6900C953F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3402837E1E423E4600C953F9 /* BMW.h */,
+				3402837F1E423E4600C953F9 /* BMW.m */,
+				340283811E42406F00C953F9 /* CarViewController.h */,
+				340283821E42406F00C953F9 /* CarViewController.m */,
+				340283841E42425700C953F9 /* Tesla.h */,
+				340283851E42425700C953F9 /* Tesla.m */,
+				340283871E424A7600C953F9 /* Car.h */,
+				340283881E424A7600C953F9 /* Car.m */,
+				3402838A1E424E7200C953F9 /* PineTree.h */,
+				3402838B1E424E7200C953F9 /* PineTree.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		342B72CA1E3FA30D004F07F2 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +121,7 @@
 		342B73121E40FAF9004F07F2 /* Week 1 */ = {
 			isa = PBXGroup;
 			children = (
+				3402837D1E423D6900C953F9 /* Classes */,
 				342B73131E40FB01004F07F2 /* Methods */,
 			);
 			name = "Week 1";
@@ -177,8 +210,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				342B72DE1E3FA30D004F07F2 /* ViewController.m in Sources */,
+				340283831E42406F00C953F9 /* CarViewController.m in Sources */,
 				342B73161E40FB22004F07F2 /* MethodsViewController.m in Sources */,
 				342B72DB1E3FA30D004F07F2 /* AppDelegate.m in Sources */,
+				340283801E423E4600C953F9 /* BMW.m in Sources */,
+				340283861E42425700C953F9 /* Tesla.m in Sources */,
+				3402838C1E424E7200C953F9 /* PineTree.m in Sources */,
+				340283891E424A7600C953F9 /* Car.m in Sources */,
 				342B72D81E3FA30D004F07F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

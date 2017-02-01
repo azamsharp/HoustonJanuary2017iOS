@@ -17,11 +17,14 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
+    NSMutableArray *array = [[NSMutableArray alloc] init];
+    [array addObject:@"ss"];
+    
+    NSDictionary *airports = [[NSDictionary alloc] init];
+    [airports setValue:@"ss" forKey:@"title"];
 }
 
-//-(void) showGreeting {
-//
-//}
 
 -(void) sendEmail:(NSString *) to from:(NSString *) from subject:(NSString *) subject {
     
@@ -54,10 +57,13 @@
     return no1 + no2;
 }
 
+-(void) displayResult:(int) result {
+    //self.resultLabel.text = result
+}
+
 -(IBAction) addButtonPressed {
     
     int result = [self add:2 secondNumber:5];
-    
     //self.resultLabel.text = result; // convert result to NSString
     
 }
