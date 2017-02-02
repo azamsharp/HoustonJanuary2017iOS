@@ -20,6 +20,10 @@
 		342B72E61E3FA30D004F07F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B72E41E3FA30D004F07F2 /* LaunchScreen.storyboard */; };
 		342B72EE1E3FA4A4004F07F2 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 342B72ED1E3FA4A4004F07F2 /* TODO */; };
 		342B73161E40FB22004F07F2 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B73151E40FB22004F07F2 /* MethodsViewController.m */; };
+		34F65A121E438770006DD3BD /* CollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F65A111E438770006DD3BD /* CollectionsViewController.m */; };
+		34F65A151E438A29006DD3BD /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F65A141E438A29006DD3BD /* CalculatorViewController.m */; };
+		34F65A181E4392F8006DD3BD /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F65A171E4392F8006DD3BD /* Tweet.m */; };
+		34F65A1B1E4394FE006DD3BD /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F65A1A1E4394FE006DD3BD /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,14 @@
 		342B72ED1E3FA4A4004F07F2 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		342B73141E40FB22004F07F2 /* MethodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodsViewController.h; sourceTree = "<group>"; };
 		342B73151E40FB22004F07F2 /* MethodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodsViewController.m; sourceTree = "<group>"; };
+		34F65A101E438770006DD3BD /* CollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsViewController.h; sourceTree = "<group>"; };
+		34F65A111E438770006DD3BD /* CollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsViewController.m; sourceTree = "<group>"; };
+		34F65A131E438A29006DD3BD /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		34F65A141E438A29006DD3BD /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		34F65A161E4392F8006DD3BD /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		34F65A171E4392F8006DD3BD /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		34F65A191E4394FE006DD3BD /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		34F65A1A1E4394FE006DD3BD /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,7 @@
 		342B73121E40FAF9004F07F2 /* Week 1 */ = {
 			isa = PBXGroup;
 			children = (
+				34F65A0F1E438701006DD3BD /* Collections */,
 				3402837D1E423D6900C953F9 /* Classes */,
 				342B73131E40FB01004F07F2 /* Methods */,
 			);
@@ -134,6 +147,21 @@
 				342B73151E40FB22004F07F2 /* MethodsViewController.m */,
 			);
 			name = Methods;
+			sourceTree = "<group>";
+		};
+		34F65A0F1E438701006DD3BD /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				34F65A101E438770006DD3BD /* CollectionsViewController.h */,
+				34F65A111E438770006DD3BD /* CollectionsViewController.m */,
+				34F65A131E438A29006DD3BD /* CalculatorViewController.h */,
+				34F65A141E438A29006DD3BD /* CalculatorViewController.m */,
+				34F65A161E4392F8006DD3BD /* Tweet.h */,
+				34F65A171E4392F8006DD3BD /* Tweet.m */,
+				34F65A191E4394FE006DD3BD /* Task.h */,
+				34F65A1A1E4394FE006DD3BD /* Task.m */,
+			);
+			name = Collections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,12 +237,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F65A1B1E4394FE006DD3BD /* Task.m in Sources */,
 				342B72DE1E3FA30D004F07F2 /* ViewController.m in Sources */,
 				340283831E42406F00C953F9 /* CarViewController.m in Sources */,
+				34F65A151E438A29006DD3BD /* CalculatorViewController.m in Sources */,
+				34F65A181E4392F8006DD3BD /* Tweet.m in Sources */,
 				342B73161E40FB22004F07F2 /* MethodsViewController.m in Sources */,
 				342B72DB1E3FA30D004F07F2 /* AppDelegate.m in Sources */,
 				340283801E423E4600C953F9 /* BMW.m in Sources */,
 				340283861E42425700C953F9 /* Tesla.m in Sources */,
+				34F65A121E438770006DD3BD /* CollectionsViewController.m in Sources */,
 				3402838C1E424E7200C953F9 /* PineTree.m in Sources */,
 				340283891E424A7600C953F9 /* Car.m in Sources */,
 				342B72D81E3FA30D004F07F2 /* main.m in Sources */,

@@ -17,6 +17,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+//    NSMutableArray *names = [[NSMutableArray alloc] init];
+//    [names addObject:@"Alex"];
+//    [names addObject:@"John"];
+//    
+//    NSDictionary *airports = [NSDictionary dictionaryWithObjectsAndKeys:@"Intercontinental Airport",@"IAH",@"San Jose Airport",@"SJO", nil];
+//    
+//    NSMutableDictionary *ss = [[NSMutableDictionary alloc] init];
+//    
+//    NSString *airportName = airports[@"IAH"];
+//    
+//    for(NSString *key in airports.allKeys) {
+//        
+//        NSLog(@"%@",airports[key]);
+//    }
+//    
+//    
+//    for(int i = 0; i<names.count;i++) {
+//        
+//    }
+//    
+//    for(NSString *name in names) {
+//        
+//        
+//        
+//    }
+    
+    
     // DataType *variableName = [[DataType alloc] init];
     
     NSString *myString = [[NSString alloc] init];
