@@ -14,4 +14,14 @@
     NSLog(@"CAR HAS STARTED");
 }
 
+-(instancetype) initWithModel:(NSString *)model make:(NSString *)make {
+    
+    self = [super init];
+    
+    self.make = make;
+    self.model = model;
+    
+    return self;
+}
+
 @end

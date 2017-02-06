@@ -17,11 +17,97 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.names = [[NSMutableArray alloc] init];
+    
+    
+    // ARRAYS
+    
+    //NSArray *numbers = [NSArray arrayWithObjects:1,12,34,23, nil];
+    
+    // 12
+    
+    //NSNumber *someNumber = @12;
+    
+    Task *task1 = [[Task alloc] init];
+    task1.title = @"Wash the car";
+    
+    Task *task2 = [[Task alloc] init];
+    task2.title = @"Go do groceries";
+    
+    Task *task3 = [[Task alloc] init];
+    task3.title = @"Feed the cat";
+    
+    NSArray *numbers = [NSArray arrayWithObjects:@1,@3,@12,@15, nil];
+    
+    NSMutableArray *tasks = [NSMutableArray array];
+    [tasks addObject:task1];
+    [tasks addObject:task2];
+    [tasks addObject:task3];
+    
+   NSString *ss = @"";
+    
+    // inside the markAsCompletedIBAction  {
+    
+    Task *task1_1 = tasks[0];
+    task1.isCompleted = YES;
+    
+    Task *task2_2 = tasks[1];
+    task1.isCompleted = YES;
+    
+    
+    
+    
+    
+    // for(starting point; condition; how to move forward)
+    
+    // LOOPS
+    
+    for(int i = 0; i < tasks.count;i++) {
+        
+        Task *task = tasks[i];
+        task.isCompleted = YES;
+        
+    }
+    
+    for(Task *task in tasks) {
+        
+    }
+    
+    // DICTIONARY
+    
+   // NSDictionary *airports = [NSDictionary dictionaryWithObjectsAndKeys:@"Intercontinenal Aiport Houston",@"IAH", nil];
+    
+    NSMutableDictionary *airports = [NSMutableDictionary dictionary];
+    
+    [airports setObject:@"Oakland Airport" forKey:@"OCK"];
+    [airports setObject:@"Hobby Airport" forKey:@"HOBBY"];
+    
+    NSString *airportName = airports[@"OCK"];
+    
+    for(NSString *key in airports.allKeys) {
+        
+        NSString *airportName = airports[key];
+    }
+    
+    
+    // IF-ELSE
+    
+    int age = 18;
+    
+    
+    
+    
+    
+    PersonDetails *details = [[PersonDetails alloc] init];
+    
+    PersonDetails *personDetails = [details getPersonDetails:@"John" age:19];
+    
+    
     //[NSString string]
     
     //NSNumber *no = [NSNumber numberWithInt:10];
     
-    NSArray *numbers = [NSArray arrayWithObjects:@10,@20,@40, nil];
+    //NSArray *numbers = [NSArray arrayWithObjects:@10,@20,@40, nil];
     
     NSNumber *a = numbers[0];
     
@@ -50,23 +136,20 @@
     
     // create tasks
     
-    Task *task1 = [[Task alloc] init];
-    task1.title = @"Wash the car";
-    
-    Task *task2 = [[Task alloc] init];
-    task2.title = @"Feed the cat";
-    
-    self.tasks = [[NSMutableArray alloc] init];
-    
-    [self.tasks addObject:task1];
-    [self.tasks addObject:task2];
-    
+//    Task *task1 = [[Task alloc] init];
+//    task1.title = @"Wash the car";
+//    
+//    Task *task2 = [[Task alloc] init];
+//    task2.title = @"Feed the cat";
+//    
+//    self.tasks = [[NSMutableArray alloc] init];
+//    
+//    [self.tasks addObject:task1];
+//    [self.tasks addObject:task2];
+//    
     
     // dictionary
     
-    NSDictionary *airports = [NSDictionary dictionaryWithObjectsAndKeys:@"Intercontinental Airport",@"IAH",@"San Jose Airport",@"SJO",@"John Keneddy Airport",@"JFK", nil];
-    
-    NSString *airportName = airports[@"SJO"];
     
     NSMutableDictionary *dictionaryOfAirports = [[NSMutableDictionary alloc] init];
     
@@ -87,7 +170,6 @@
     
     // conditions
     
-    int age = 75;
     
     NSString *message = @"";
     
@@ -108,6 +190,7 @@
     
 }
 
+
 -(IBAction) markAllTaskCompletedButtonPressed {
     
     // for(starting index; condition; increment criteria)
@@ -121,7 +204,7 @@
     }
     
     
-    for(int i = 0;i < self.tasks.count;i++) {
+    for(int i = self.tasks.count -1 ;i >= 0;i--) {
         
         Task *task = self.tasks[i];
         task.isCompleted = YES;

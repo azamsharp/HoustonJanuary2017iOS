@@ -15,6 +15,8 @@
 @property (nonatomic,copy) NSString *vin;
 @property (nonatomic,copy) NSString *color;
 
--(void) start; 
+-(void) start;
+
+-(instancetype) initWithModel:(NSString *) model make:(NSString *) make;
 
 @end
