@@ -10,8 +10,14 @@
 
 @implementation House
 
+-(void) openDoor {
+    
+}
+
 -(void) alarmWentOff {
     
+    [self openDoor];
+     
     [self.delegate notify];
 }
 

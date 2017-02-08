@@ -14,9 +14,28 @@
 
 @implementation DelegatesAndProtocolsViewController
 
+-(IBAction) addButtonPressed {
+    
+    int result = [self getInt:5];
+
+  
+
+}
+
++(int) getAnotherInt:(int) a{
+    return a * 10;
+}
+
+-(int) getInt:(int) a {
+    return a* 10;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
    
+    
+    
+    
     self.nameTextField.delegate = self;
     
     Police *police = [[Police alloc] init];
