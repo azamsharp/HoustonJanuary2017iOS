@@ -64,6 +64,15 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"RedCell" forIndexPath:indexPath];
     
+//    Task *task = self.tasks[indexPath.row];
+//    cell.textLabel.text = task.title;
+//    
+//    if(task.isCompleted == YES) {
+//        cell.backgroundColor = [UIColor greenColor];
+//    } else {
+//        cell.backgroundColor = [UIColor redColor];
+//    }
+//    
     NSString *locationName = self.locations[indexPath.row];
     
     cell.textLabel.text = locationName;
