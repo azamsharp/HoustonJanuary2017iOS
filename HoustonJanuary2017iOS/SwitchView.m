@@ -16,18 +16,41 @@
     
     // add controls
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button.tintColor = [UIColor whiteColor];
     button.frame = CGRectMake(0, 0, 100, 100);
-    [button setTitle:@"ON" forState:UIControlStateNormal];
+    [button setTitle:@"OFF" forState:UIControlStateNormal];
     
-    [button addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
+    [button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    
+    button.backgroundColor = [UIColor redColor];
     
     [self addSubview:button];
     
     return self;
 }
 
--(void) buttonPressed {
-    self.backgroundColor = [UIColor greenColor];
+
+-(void) buttonPressed:(id) sender {
+    
+    UIButton *button = (UIButton *) sender;
+    
+    NSString *buttonStatus = button.titleLabel.text;
+    
+    if([buttonStatus isEqualToString:@"OFF"]) {
+        
+        button.backgroundColor = [UIColor greenColor];
+        [button setTitle:@"ON" forState:UIControlStateNormal];
+        
+        [self.delegate switchViewStatusChanged:YES];
+        
+    } else {
+        
+        button.backgroundColor = [UIColor redColor];
+        [button setTitle:@"OFF" forState:UIControlStateNormal];
+        
+        [self.delegate switchViewStatusChanged:NO];
+    }
+
 }
 
 /*

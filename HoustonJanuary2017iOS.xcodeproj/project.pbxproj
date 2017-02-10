@@ -14,6 +14,8 @@
 		3402838C1E424E7200C953F9 /* PineTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3402838B1E424E7200C953F9 /* PineTree.m */; };
 		340BBDA31E4CD3FE0012779A /* RoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BBDA21E4CD3FE0012779A /* RoundedView.m */; };
 		340BBDA61E4CD9C00012779A /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BBDA51E4CD9C00012779A /* SwitchView.m */; };
+		341886AE1E4E288E005C14C2 /* CustomerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 341886AD1E4E288E005C14C2 /* CustomerView.m */; };
+		341886B21E4E2A39005C14C2 /* GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341886B11E4E2A39005C14C2 /* GesturesViewController.m */; };
 		342B72D81E3FA30D004F07F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B72D71E3FA30D004F07F2 /* main.m */; };
 		342B72DB1E3FA30D004F07F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B72DA1E3FA30D004F07F2 /* AppDelegate.m */; };
 		342B72DE1E3FA30D004F07F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B72DD1E3FA30D004F07F2 /* ViewController.m */; };
@@ -57,6 +59,10 @@
 		340BBDA21E4CD3FE0012779A /* RoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedView.m; sourceTree = "<group>"; };
 		340BBDA41E4CD9C00012779A /* SwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchView.h; sourceTree = "<group>"; };
 		340BBDA51E4CD9C00012779A /* SwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
+		341886AC1E4E288E005C14C2 /* CustomerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerView.h; sourceTree = "<group>"; };
+		341886AD1E4E288E005C14C2 /* CustomerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerView.m; sourceTree = "<group>"; };
+		341886B01E4E2A39005C14C2 /* GesturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturesViewController.h; sourceTree = "<group>"; };
+		341886B11E4E2A39005C14C2 /* GesturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturesViewController.m; sourceTree = "<group>"; };
 		342B72D31E3FA30D004F07F2 /* HoustonJanuary2017iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoustonJanuary2017iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342B72D71E3FA30D004F07F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		342B72D91E3FA30D004F07F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +141,15 @@
 				3402838B1E424E7200C953F9 /* PineTree.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		341886AF1E4E2A26005C14C2 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				341886B01E4E2A39005C14C2 /* GesturesViewController.h */,
+				341886B11E4E2A39005C14C2 /* GesturesViewController.m */,
+			);
+			name = Gestures;
 			sourceTree = "<group>";
 		};
 		342B72CA1E3FA30D004F07F2 = {
@@ -223,6 +238,8 @@
 				340BBDA21E4CD3FE0012779A /* RoundedView.m */,
 				340BBDA41E4CD9C00012779A /* SwitchView.h */,
 				340BBDA51E4CD9C00012779A /* SwitchView.m */,
+				341886AC1E4E288E005C14C2 /* CustomerView.h */,
+				341886AD1E4E288E005C14C2 /* CustomerView.m */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -230,6 +247,7 @@
 		3477CD051E48C61700D60D37 /* Week 2 */ = {
 			isa = PBXGroup;
 			children = (
+				341886AF1E4E2A26005C14C2 /* Gestures */,
 				34639AA81E4CB83200F58BCE /* Custom Views */,
 				343D02F91E4B75D100DCA61A /* TableViews And CollectionViews */,
 				34ABC8291E4A176E00063D76 /* Delegates and Protocols */,
@@ -361,6 +379,7 @@
 			files = (
 				343D03021E4B863100DCA61A /* PhotosCollectionViewController.m in Sources */,
 				34F65A1B1E4394FE006DD3BD /* Task.m in Sources */,
+				341886B21E4E2A39005C14C2 /* GesturesViewController.m in Sources */,
 				34ABC8351E4A241C00063D76 /* KingFisher.m in Sources */,
 				34ABC83B1E4A258800063D76 /* Airplane.m in Sources */,
 				342B72DE1E3FA30D004F07F2 /* ViewController.m in Sources */,
@@ -385,6 +404,7 @@
 				34E32C8F1E44FC9A005F9C35 /* PersonDetails.m in Sources */,
 				3402838C1E424E7200C953F9 /* PineTree.m in Sources */,
 				340BBDA31E4CD3FE0012779A /* RoundedView.m in Sources */,
+				341886AE1E4E288E005C14C2 /* CustomerView.m in Sources */,
 				340283891E424A7600C953F9 /* Car.m in Sources */,
 				34ABC83E1E4A2A8900063D76 /* House.m in Sources */,
 				342B72D81E3FA30D004F07F2 /* main.m in Sources */,

@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol SwitchViewDelegate<NSObject>
+
+-(void) switchViewStatusChanged:(BOOL) status;
+
+@end
+
 @interface SwitchView : UIView
+
+@property (nonatomic,weak) id<SwitchViewDelegate> delegate;
 
 @end

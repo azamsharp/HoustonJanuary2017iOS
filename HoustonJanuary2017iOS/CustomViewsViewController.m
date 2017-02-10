@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
    [super viewDidLoad];
     
-    // Rounded View
+    
+       // Rounded View
     RoundedView *roundedView = [[RoundedView alloc] init];
     roundedView.frame = CGRectMake(100, 100, 300, 300);
     roundedView.backgroundColor = [UIColor greenColor];
@@ -27,10 +28,9 @@
     // Switch View
     SwitchView *switchView = [[SwitchView alloc] initWithFrame:CGRectMake(100, 400, 100, 100)];
     
-    switchView.backgroundColor = [UIColor redColor];
+    switchView.delegate = self; 
+    
     [self.view addSubview:switchView];
-    
-    
     
     
     
@@ -63,6 +63,17 @@
    // [self.view addSubview:button];
    // [self.view addSubview:label];
 }
+
+-(void) switchViewStatusChanged:(BOOL) status {
+
+    if(status == YES) {
+        self.view.backgroundColor = [UIColor yellowColor];
+    } else {
+        self.view.backgroundColor = [UIColor orangeColor];
+    }
+    
+}
+
 
 -(void) greenButtonPressed:(id) sender {
 
