@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
 //    tapGestureRecognizer.numberOfTapsRequired = 5;
     
@@ -29,6 +31,10 @@
     
     [greenView addGestureRecognizer:swipeUpGestureRecognizer];
     [greenView addGestureRecognizer:tapGestureRecognizer];
+}
+
+-(IBAction) addButtonPressed:(id) sender {
+    
 }
 
 -(void) swipeUp:(UISwipeGestureRecognizer *) recognizer {

@@ -38,6 +38,11 @@
 		34ABC8441E4A2D3F00063D76 /* Hospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ABC8431E4A2D3F00063D76 /* Hospital.m */; };
 		34E32C8C1E44F6EC005F9C35 /* Palindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E32C8B1E44F6EC005F9C35 /* Palindrome.m */; };
 		34E32C8F1E44FC9A005F9C35 /* PersonDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E32C8E1E44FC9A005F9C35 /* PersonDetails.m */; };
+		34F1B4331E5215A3002F4B4A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F1B4321E5215A3002F4B4A /* FirstViewController.m */; };
+		34F1B4361E5215B2002F4B4A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F1B4351E5215B2002F4B4A /* SecondViewController.m */; };
+		34F1B4391E521A1F002F4B4A /* TasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F1B4381E521A1F002F4B4A /* TasksTableViewController.m */; };
+		34F1B43C1E521D48002F4B4A /* TaskDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F1B43B1E521D48002F4B4A /* TaskDetailsViewController.m */; };
+		34F1B43F1E5221D6002F4B4A /* AddNewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F1B43E1E5221D6002F4B4A /* AddNewTaskViewController.m */; };
 		34F65A121E438770006DD3BD /* CollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F65A111E438770006DD3BD /* CollectionsViewController.m */; };
 		34F65A151E438A29006DD3BD /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F65A141E438A29006DD3BD /* CalculatorViewController.m */; };
 		34F65A181E4392F8006DD3BD /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F65A171E4392F8006DD3BD /* Tweet.m */; };
@@ -105,6 +110,16 @@
 		34E32C8B1E44F6EC005F9C35 /* Palindrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palindrome.m; sourceTree = "<group>"; };
 		34E32C8D1E44FC9A005F9C35 /* PersonDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetails.h; sourceTree = "<group>"; };
 		34E32C8E1E44FC9A005F9C35 /* PersonDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetails.m; sourceTree = "<group>"; };
+		34F1B4311E5215A3002F4B4A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		34F1B4321E5215A3002F4B4A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		34F1B4341E5215B2002F4B4A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		34F1B4351E5215B2002F4B4A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		34F1B4371E521A1F002F4B4A /* TasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksTableViewController.h; sourceTree = "<group>"; };
+		34F1B4381E521A1F002F4B4A /* TasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksTableViewController.m; sourceTree = "<group>"; };
+		34F1B43A1E521D48002F4B4A /* TaskDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailsViewController.h; sourceTree = "<group>"; };
+		34F1B43B1E521D48002F4B4A /* TaskDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailsViewController.m; sourceTree = "<group>"; };
+		34F1B43D1E5221D6002F4B4A /* AddNewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewTaskViewController.h; sourceTree = "<group>"; };
+		34F1B43E1E5221D6002F4B4A /* AddNewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewTaskViewController.m; sourceTree = "<group>"; };
 		34F65A101E438770006DD3BD /* CollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsViewController.h; sourceTree = "<group>"; };
 		34F65A111E438770006DD3BD /* CollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsViewController.m; sourceTree = "<group>"; };
 		34F65A131E438A29006DD3BD /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
@@ -171,6 +186,7 @@
 		342B72D51E3FA30D004F07F2 /* HoustonJanuary2017iOS */ = {
 			isa = PBXGroup;
 			children = (
+				34F1B42F1E521585002F4B4A /* Week 3 */,
 				3477CD051E48C61700D60D37 /* Week 2 */,
 				342B73121E40FAF9004F07F2 /* Week 1 */,
 				342B72D91E3FA30D004F07F2 /* AppDelegate.h */,
@@ -285,6 +301,31 @@
 			name = "Delegates and Protocols";
 			sourceTree = "<group>";
 		};
+		34F1B42F1E521585002F4B4A /* Week 3 */ = {
+			isa = PBXGroup;
+			children = (
+				34F1B4301E52158C002F4B4A /* Navigation */,
+			);
+			name = "Week 3";
+			sourceTree = "<group>";
+		};
+		34F1B4301E52158C002F4B4A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				34F1B4311E5215A3002F4B4A /* FirstViewController.h */,
+				34F1B4321E5215A3002F4B4A /* FirstViewController.m */,
+				34F1B4341E5215B2002F4B4A /* SecondViewController.h */,
+				34F1B4351E5215B2002F4B4A /* SecondViewController.m */,
+				34F1B4371E521A1F002F4B4A /* TasksTableViewController.h */,
+				34F1B4381E521A1F002F4B4A /* TasksTableViewController.m */,
+				34F1B43A1E521D48002F4B4A /* TaskDetailsViewController.h */,
+				34F1B43B1E521D48002F4B4A /* TaskDetailsViewController.m */,
+				34F1B43D1E5221D6002F4B4A /* AddNewTaskViewController.h */,
+				34F1B43E1E5221D6002F4B4A /* AddNewTaskViewController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
 		34F65A0F1E438701006DD3BD /* Collections */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,6 +426,7 @@
 				342B72DE1E3FA30D004F07F2 /* ViewController.m in Sources */,
 				34ABC8321E4A18D500063D76 /* DelegatesAndProtocolsViewController.m in Sources */,
 				340283831E42406F00C953F9 /* CarViewController.m in Sources */,
+				34F1B4391E521A1F002F4B4A /* TasksTableViewController.m in Sources */,
 				3477CD081E48C69300D60D37 /* LifeCycleViewController.m in Sources */,
 				34F65A151E438A29006DD3BD /* CalculatorViewController.m in Sources */,
 				34E32C8C1E44F6EC005F9C35 /* Palindrome.m in Sources */,
@@ -398,14 +440,18 @@
 				342B72DB1E3FA30D004F07F2 /* AppDelegate.m in Sources */,
 				340283801E423E4600C953F9 /* BMW.m in Sources */,
 				340283861E42425700C953F9 /* Tesla.m in Sources */,
+				34F1B43F1E5221D6002F4B4A /* AddNewTaskViewController.m in Sources */,
 				34639AAB1E4CB84900F58BCE /* CustomViewsViewController.m in Sources */,
 				34F65A121E438770006DD3BD /* CollectionsViewController.m in Sources */,
+				34F1B4331E5215A3002F4B4A /* FirstViewController.m in Sources */,
 				34ABC8411E4A2AE800063D76 /* Police.m in Sources */,
 				34E32C8F1E44FC9A005F9C35 /* PersonDetails.m in Sources */,
 				3402838C1E424E7200C953F9 /* PineTree.m in Sources */,
+				34F1B43C1E521D48002F4B4A /* TaskDetailsViewController.m in Sources */,
 				340BBDA31E4CD3FE0012779A /* RoundedView.m in Sources */,
 				341886AE1E4E288E005C14C2 /* CustomerView.m in Sources */,
 				340283891E424A7600C953F9 /* Car.m in Sources */,
+				34F1B4361E5215B2002F4B4A /* SecondViewController.m in Sources */,
 				34ABC83E1E4A2A8900063D76 /* House.m in Sources */,
 				342B72D81E3FA30D004F07F2 /* main.m in Sources */,
 			);
