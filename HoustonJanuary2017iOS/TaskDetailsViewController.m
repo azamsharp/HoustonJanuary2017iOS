@@ -19,6 +19,10 @@
     
     self.title = self.selectedTaskName; 
     
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSData *usersData = (NSData *) [userDefaults objectForKey:@"users"];
+    NSMutableArray *users = (NSMutableArray *) [NSKeyedUnarchiver unarchiveObjectWithData:usersData];
+    
 }
 
 - (void)didReceiveMemoryWarning {
