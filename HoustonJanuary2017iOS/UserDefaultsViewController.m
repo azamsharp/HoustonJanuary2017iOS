@@ -40,6 +40,9 @@
 //    [names addObject:@"Mary"];
 //    [names addObject:@"Alex"];
 //
+  
+    NSDictionary *userDictionary = [NSDictionary dictionaryWithObjectsAndKeys:user.firstName,@"firstName",user.lastName,@"lastName", nil];
+    
     
     NSData *usersData = [NSKeyedArchiver archivedDataWithRootObject:users];
     
