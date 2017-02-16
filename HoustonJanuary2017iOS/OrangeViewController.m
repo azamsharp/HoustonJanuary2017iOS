@@ -19,7 +19,7 @@
 -(void) viewDidAppear:(BOOL)animated {
     
     [super viewDidAppear:animated];
-     [self performSegueWithIdentifier:@"segueToGreenViewController" sender:self];
+    // [self performSegueWithIdentifier:@"segueToGreenViewController" sender:self];
 }
 
 - (void)viewDidLoad {
@@ -27,6 +27,14 @@
     
     // add a timer
 }
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+   // UINavigationController *nv = segue.destinationViewController;
+  //  GreenViewController *greenVC = (GreenViewController *) nv.viewControllers.firstObject;
+    
+}
+
 
 -(IBAction) unwindToOrangeViewController:(UIStoryboardSegue *) segue {
     
