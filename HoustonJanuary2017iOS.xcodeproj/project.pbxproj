@@ -29,10 +29,16 @@
 		343D02FF1E4B7F7600DCA61A /* LocationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343D02FE1E4B7F7600DCA61A /* LocationsTableViewController.m */; };
 		343D03021E4B863100DCA61A /* PhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343D03011E4B863100DCA61A /* PhotosCollectionViewController.m */; };
 		343D03051E4B881A00DCA61A /* CollectionViewCellWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 343D03041E4B881A00DCA61A /* CollectionViewCellWithLabel.m */; };
+		3453627E1E5B473E00B04190 /* PinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453627D1E5B473E00B04190 /* PinkViewController.m */; };
+		345362811E5B477E00B04190 /* DarkGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345362801E5B477E00B04190 /* DarkGreenViewController.m */; };
+		345362841E5B548D00B04190 /* DynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345362831E5B548D00B04190 /* DynamicsViewController.m */; };
 		34639AAB1E4CB84900F58BCE /* CustomViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34639AAA1E4CB84900F58BCE /* CustomViewsViewController.m */; };
 		346E4C8F1E54ADD900757E9C /* UserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346E4C8E1E54ADD900757E9C /* UserDefaultsViewController.m */; };
 		346E4C921E54B26D00757E9C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 346E4C911E54B26D00757E9C /* User.m */; };
 		3477CD081E48C69300D60D37 /* LifeCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3477CD071E48C69300D60D37 /* LifeCycleViewController.m */; };
+		349E631B1E5A8D0A003A2105 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E631A1E5A8D0A003A2105 /* ContainerViewController.m */; };
+		349E631E1E5A9017003A2105 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E631D1E5A9017003A2105 /* RedViewController.m */; };
+		349E63211E5A9025003A2105 /* PurpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E63201E5A9025003A2105 /* PurpleViewController.m */; };
 		349F2ACB1E554B6A001B4F70 /* OrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349F2ACA1E554B6A001B4F70 /* OrangeViewController.m */; };
 		349F2ACE1E554BD1001B4F70 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349F2ACD1E554BD1001B4F70 /* GreenViewController.m */; };
 		34ABC8321E4A18D500063D76 /* DelegatesAndProtocolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ABC8311E4A18D500063D76 /* DelegatesAndProtocolsViewController.m */; };
@@ -95,6 +101,12 @@
 		343D03011E4B863100DCA61A /* PhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosCollectionViewController.m; sourceTree = "<group>"; };
 		343D03031E4B881A00DCA61A /* CollectionViewCellWithLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCellWithLabel.h; sourceTree = "<group>"; };
 		343D03041E4B881A00DCA61A /* CollectionViewCellWithLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCellWithLabel.m; sourceTree = "<group>"; };
+		3453627C1E5B473E00B04190 /* PinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinkViewController.h; sourceTree = "<group>"; };
+		3453627D1E5B473E00B04190 /* PinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinkViewController.m; sourceTree = "<group>"; };
+		3453627F1E5B477E00B04190 /* DarkGreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkGreenViewController.h; sourceTree = "<group>"; };
+		345362801E5B477E00B04190 /* DarkGreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkGreenViewController.m; sourceTree = "<group>"; };
+		345362821E5B548D00B04190 /* DynamicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicsViewController.h; sourceTree = "<group>"; };
+		345362831E5B548D00B04190 /* DynamicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicsViewController.m; sourceTree = "<group>"; };
 		34639AA91E4CB84900F58BCE /* CustomViewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewsViewController.h; sourceTree = "<group>"; };
 		34639AAA1E4CB84900F58BCE /* CustomViewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewsViewController.m; sourceTree = "<group>"; };
 		346E4C8D1E54ADD900757E9C /* UserDefaultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsViewController.h; sourceTree = "<group>"; };
@@ -103,6 +115,12 @@
 		346E4C911E54B26D00757E9C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		3477CD061E48C69300D60D37 /* LifeCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeCycleViewController.h; sourceTree = "<group>"; };
 		3477CD071E48C69300D60D37 /* LifeCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeCycleViewController.m; sourceTree = "<group>"; };
+		349E63191E5A8D0A003A2105 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		349E631A1E5A8D0A003A2105 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		349E631C1E5A9017003A2105 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		349E631D1E5A9017003A2105 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		349E631F1E5A9025003A2105 /* PurpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleViewController.h; sourceTree = "<group>"; };
+		349E63201E5A9025003A2105 /* PurpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleViewController.m; sourceTree = "<group>"; };
 		349F2AC91E554B6A001B4F70 /* OrangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeViewController.h; sourceTree = "<group>"; };
 		349F2ACA1E554B6A001B4F70 /* OrangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeViewController.m; sourceTree = "<group>"; };
 		349F2ACC1E554BD1001B4F70 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
@@ -200,6 +218,7 @@
 		342B72D51E3FA30D004F07F2 /* HoustonJanuary2017iOS */ = {
 			isa = PBXGroup;
 			children = (
+				349E63181E5A8BDC003A2105 /* Week 4 */,
 				34F1B42F1E521585002F4B4A /* Week 3 */,
 				3477CD051E48C61700D60D37 /* Week 2 */,
 				342B73121E40FAF9004F07F2 /* Week 1 */,
@@ -296,6 +315,25 @@
 				34ABC8281E4A175F00063D76 /* Life Cycle */,
 			);
 			name = "Week 2";
+			sourceTree = "<group>";
+		};
+		349E63181E5A8BDC003A2105 /* Week 4 */ = {
+			isa = PBXGroup;
+			children = (
+				349E63191E5A8D0A003A2105 /* ContainerViewController.h */,
+				349E631A1E5A8D0A003A2105 /* ContainerViewController.m */,
+				349E631C1E5A9017003A2105 /* RedViewController.h */,
+				349E631D1E5A9017003A2105 /* RedViewController.m */,
+				349E631F1E5A9025003A2105 /* PurpleViewController.h */,
+				349E63201E5A9025003A2105 /* PurpleViewController.m */,
+				3453627C1E5B473E00B04190 /* PinkViewController.h */,
+				3453627D1E5B473E00B04190 /* PinkViewController.m */,
+				3453627F1E5B477E00B04190 /* DarkGreenViewController.h */,
+				345362801E5B477E00B04190 /* DarkGreenViewController.m */,
+				345362821E5B548D00B04190 /* DynamicsViewController.h */,
+				345362831E5B548D00B04190 /* DynamicsViewController.m */,
+			);
+			name = "Week 4";
 			sourceTree = "<group>";
 		};
 		349F2AC81E554A51001B4F70 /* Exit Segues */ = {
@@ -480,9 +518,13 @@
 				342B72DB1E3FA30D004F07F2 /* AppDelegate.m in Sources */,
 				340283801E423E4600C953F9 /* BMW.m in Sources */,
 				340283861E42425700C953F9 /* Tesla.m in Sources */,
+				349E631E1E5A9017003A2105 /* RedViewController.m in Sources */,
 				34F1B43F1E5221D6002F4B4A /* AddNewTaskViewController.m in Sources */,
+				3453627E1E5B473E00B04190 /* PinkViewController.m in Sources */,
 				34639AAB1E4CB84900F58BCE /* CustomViewsViewController.m in Sources */,
 				346E4C8F1E54ADD900757E9C /* UserDefaultsViewController.m in Sources */,
+				345362811E5B477E00B04190 /* DarkGreenViewController.m in Sources */,
+				345362841E5B548D00B04190 /* DynamicsViewController.m in Sources */,
 				34F65A121E438770006DD3BD /* CollectionsViewController.m in Sources */,
 				34F1B4331E5215A3002F4B4A /* FirstViewController.m in Sources */,
 				34ABC8411E4A2AE800063D76 /* Police.m in Sources */,
@@ -493,8 +535,10 @@
 				349F2ACE1E554BD1001B4F70 /* GreenViewController.m in Sources */,
 				349F2ACB1E554B6A001B4F70 /* OrangeViewController.m in Sources */,
 				341886AE1E4E288E005C14C2 /* CustomerView.m in Sources */,
+				349E631B1E5A8D0A003A2105 /* ContainerViewController.m in Sources */,
 				340283891E424A7600C953F9 /* Car.m in Sources */,
 				346E4C921E54B26D00757E9C /* User.m in Sources */,
+				349E63211E5A9025003A2105 /* PurpleViewController.m in Sources */,
 				34F1B4361E5215B2002F4B4A /* SecondViewController.m in Sources */,
 				34ABC83E1E4A2A8900063D76 /* House.m in Sources */,
 				342B72D81E3FA30D004F07F2 /* main.m in Sources */,
